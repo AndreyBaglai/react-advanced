@@ -14,7 +14,6 @@ function App() {
       </Profiler>
 
       <ParentLazyComponent />
-      {/* <TopComponent /> */}
 
       <PortalExample />
 
