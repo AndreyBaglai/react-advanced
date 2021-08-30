@@ -2,6 +2,7 @@ import React, { Profiler } from 'react';
 import ParentTextInput from './components/RefExample/ParentTextInput';
 import ParentLazyComponent from './components/LazyExample/ParentLazyComponent';
 import PortalExample from './components/Portal/PortalExample';
+import Parent from './components/ChildrenExample/Parent';
 
 import './App.css';
 
@@ -16,6 +17,8 @@ function App() {
       {/* <TopComponent /> */}
 
       <PortalExample />
+
+      <Parent />
     </div>
   );
 }
